@@ -4,13 +4,13 @@
 #include "coefficient.h"
 #include "print_vector.h"
 
-int main(int argc, char* argv[])
+int main()
 {
 	int n;
 	std::cout << "Enter Pascal Triangle row number: ";
 	std::cin >> n;
 
-	std::vector<int> row;
+	std::vector<unsigned long long> row;
 
 	for (int i = 0; i <= n; i++)
 	{

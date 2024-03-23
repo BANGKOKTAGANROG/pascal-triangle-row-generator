@@ -1,3 +1,3 @@
 #pragma once
 
-int coefficient(int m, int n);
+unsigned long long coefficient(int m, int n);

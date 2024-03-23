@@ -1,12 +1,12 @@
 #include <list>
 #include <algorithm>
 
-int coefficient(int m, int n)
+unsigned long long coefficient(int m, int n)
 {
 	if (n == 0 or n == m) return 1;
 	if (n == 1 or n == m - 1) return m;
 
-	int result = 1; 
+	unsigned long long result = 1;
 	int value = 2;
 
 	std::list<int> n_factorial(n - 1);
